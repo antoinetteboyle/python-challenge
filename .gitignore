@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+budget_data.csv
+election_data.csv
 build/
 develop-eggs/
 dist/
