@@ -47,20 +47,20 @@ with open(pybank_budget_data_csv, 'r') as csvfile:
           diff = None
         change.append(diff)
 
-  avg_change = sumdiff/(monthcount-1) # mean(change)
+  avg_change = sumdiff/(monthcount-1) # calculate mean(change)
   avg_change = round(avg_change,2)  
 
-  greatest_increase = max(change)
+  greatest_increase = max(change)   # calculate max
 
-  greatest_decrease = min(change)
-
-  indexi = (int(change.index(greatest_increase))) + 1
-
+  greatest_decrease = min(change)   # calculate min
+  
+  indexi = (int(change.index(greatest_increase))) + 1 # calculate max index and find month
   increase_month = monthlist[int(indexi)]
-  indexj = (int(change.index(greatest_decrease))) + 1
-
+  
+  indexj = (int(change.index(greatest_decrease))) + 1  # calculate min index and find month
   decrease_month = monthlist[int(indexj)]
 
+# Print to screen
 print("PyBank")
 print("FINANCIAL ANALYSIS")
 print("----------------------------------")             
@@ -73,7 +73,7 @@ print(f"Greatest Decrease in Profits: {decrease_month} (${greatest_decrease})")
 # save the output file path
 write_file = os.path.join("analysis","pybank_final.txt")
 
-# open the output file as variable 
+# open the output file as variable and print to text file 
 with open(write_file, 'w') as f:
   f.write('PyBank')
   f.write('\n')

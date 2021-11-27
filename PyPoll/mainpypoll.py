@@ -1,21 +1,4 @@
-#PyPoll
-
-
-#   ```text
-#   Election Results
-#   -------------------------
-#   Total Votes: 3521001
-#   -------------------------
-#   Khan: 63.000% (2218231)
-#   Correy: 20.000% (704200)
-#   Li: 14.000% (492940)
-#   O'Tooley: 3.000% (105630)
-#   -------------------------
-#   Winner: Khan
-#   -------------------------
-#   ```
-
-# * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+#Python Challenge PyPoll:
 
 import os
 import csv
@@ -26,7 +9,6 @@ pypoll_data_csv = os.path.join('Resources', 'election_data.csv')
 # Create lists per header/column to store/assign your column values to variables   
 totvotes = 0
 candidatelist = []
-uniqueset = ()
     
 # Read in the CSV file
 with open(pypoll_data_csv, 'r') as csvfile:
@@ -41,7 +23,6 @@ with open(pypoll_data_csv, 'r') as csvfile:
     totvotes = totvotes +1       # keep count of the votes
    
   d = {}
-  candi = ""
   perc = 0
   print("PyPoll")
   print("Election results: ")
@@ -49,23 +30,23 @@ with open(pypoll_data_csv, 'r') as csvfile:
   print("Total votes: ",totvotes) 
   print("-----------------------------")
 
-
+# calculate the amount of votes per candidate and print to screen
   for x in candidatelist:
     d.setdefault(x,0)
     d[x] += 1
-  for x, count in d.items():
-    perc = round((count/totvotes*100),1)
+  for x, count in d.items():  # iterate through candidate vote list using the dictionary
+    perc = round((count/totvotes*100),1)     # calculate percentage of total votes
     print("{}:   {}%    ({})". format(x,perc,count))
 
-  winner = max(d, key=d.get)
+  winner = max(d, key=d.get)       # find the winner based on max votes
   print("-----------------------------")
   print("The winner is: ",winner)
   print("-----------------------------")
  
-# # save the output file path
+# save the output file path
 output_file = os.path.join("analysis","pypoll_final.txt")
 
-# # open the output file as variable 
+# open the output file as variable 
 with open(output_file, 'w') as f:
 
   f.write('PyPoll')
@@ -78,7 +59,9 @@ with open(output_file, 'w') as f:
   f.write('\n')
   f.write('------------------------------')
   f.write('\n')
-  for x in candidatelist:
+  d = {}
+  perc = 0
+  for x in candidatelist: # calculate the amount of votes per candidate and print to file
     d.setdefault(x,0)
     d[x] += 1
   for x, count in d.items():
