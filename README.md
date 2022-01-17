@@ -1,6 +1,6 @@
 # python-challenge
 
-Python Homework Week 3 Py Me Up, Charlie
+Python: Py Me Up, Charlie
 
 You will find my code in Github repository.
 Python-challenge folder contains a folder of work for both PyBank and PyPoll.
