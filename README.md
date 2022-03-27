@@ -2,6 +2,30 @@
 
 Python: Py Me Up, Charlie
 
+PyBank: Created a Python script that analyzes the Financial records of a company to calculate each of the following:
+
+  * The total number of months included in the dataset
+
+  * The net total amount of "Profit/Losses" over the entire period
+
+  * Calculate the changes in "Profit/Losses" over the entire period, then find the average of those changes
+
+  * The greatest increase in profits (date and amount) over the entire period
+
+  * The greatest decrease in profits (date and amount) over the entire period
+ 
+ ByPoll: Created a Python script that analyzes the votes and calculates each of the following:
+
+  * The total number of votes cast
+
+  * A complete list of candidates who received votes
+
+  * The percentage of votes each candidate won
+
+  * The total number of votes each candidate won
+
+  * The winner of the election based on popular vote.
+
 You will find my code in Github repository.
 Python-challenge folder contains a folder of work for both PyBank and PyPoll.
 Both PyBank and PyPoll contain a main.py for the code. I have renamed the code in each main.py to mainpybank.py and mainpypoll.py. 
