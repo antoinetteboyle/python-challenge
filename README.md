@@ -26,8 +26,8 @@ PyBank: Created a Python script that analyzes the Financial records of a company
 
   * The winner of the election based on popular vote.
 
-You will find my code in Github repository.
-Python-challenge folder contains a folder of work for both PyBank and PyPoll.
+Code in the main Github repository is organised as follows:
+Python-challenge folder contains a folder for both PyBank and PyPoll.
 Both PyBank and PyPoll contain a main.py for the code. I have renamed the code in each main.py to mainpybank.py and mainpypoll.py. 
 I've used VS Code to write my programs.
 An analysis folder is located in each folder of PyBank and PyPoll. This analysis folder contains the output of my program.
