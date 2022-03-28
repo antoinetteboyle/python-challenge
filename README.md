@@ -2,12 +2,6 @@
 
 Python Py Me Up, Charlie
 
-You will find my code in Github repository.
-Python-challenge folder contains a folder of work for both PyBank and PyPoll.
-Folders PyBank and PyPoll contain the main code to mainpybank.py and mainpypoll.py. 
-VS Code utilzed to write the script.
-The analysis folder is located in each folder of PyBank and PyPoll. This analysis folder contains the printed output.
-
 PyBank:
 
 ![BankMoney](Images/revenue-per-lead.png)
@@ -45,9 +39,10 @@ PyPoll:
  ![PyPollAnalysis](Images/PyPollAnalysis.png)
 
 Code in the main Github repository is organised as follows:
-Python-challenge folder contains a folder for both PyBank and PyPoll.
-Both PyBank and PyPoll contain a main.py for the code. I have renamed the code in each main.py to mainpybank.py and mainpypoll.py. 
-I've used VS Code to write my programs.
-An analysis folder is located in each folder of PyBank and PyPoll. This analysis folder contains the output of my program.
+Final code has been saved to the Github repository python-challenge.
+Python-challenge folder contains a folder for PyBank and PyPoll.
+Folders PyBank and PyPoll each contain the main code to mainpybank.py and mainpypoll.py and a Resources folder. 
+The analysis folder is located in each folder of PyBank and PyPoll which contains the printed output.
+VS Code was utilzed to write the python script.
 I have created a git ignore on my resources folder due to the size of the data used.
 
