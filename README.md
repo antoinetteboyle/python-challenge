@@ -10,7 +10,7 @@ The analysis folder is located in each folder of PyBank and PyPoll. This analysi
 
 PyBank:
 
-![BankMoney](Images\revenue-per-lead.png)
+![BankMoney](Images/revenue-per-lead.png)
 
  Created a Python script that analyzes the Financial records of a company to calculate each of the following:
 
@@ -24,11 +24,11 @@ PyBank:
 
   * The greatest decrease in profits (date and amount) over the entire period
 
- ![PyBankAnalysis](Images\PyBankAnalysis.png)
+ ![PyBankAnalysis](Images/PyBankAnalysis.png)
 
 PyPoll: 
  
-![VotePoll](Images\vote_counting.png)
+![VotePoll](Images/vote_counting.png)
 
  Created a Python script that analyzes the votes and calculates each of the following:
 
@@ -42,7 +42,7 @@ PyPoll:
 
   * The winner of the election based on popular vote.
 
- ![PyPollAnalysis](Images\PyPollAnalysis.png)
+ ![PyPollAnalysis](Images/PyPollAnalysis.png)
 
 Code in the main Github repository is organised as follows:
 Python-challenge folder contains a folder for both PyBank and PyPoll.
