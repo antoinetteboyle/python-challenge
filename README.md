@@ -6,7 +6,7 @@ You will find my code in Github repository.
 Python-challenge folder contains a folder of work for both PyBank and PyPoll.
 Folders PyBank and PyPoll contain the main code to mainpybank.py and mainpypoll.py. 
 VS Code utilzed to write the script.
-The analysis folder is located in each folder of PyBank and PyPoll. This analysis folder contains the output of my program.
+The analysis folder is located in each folder of PyBank and PyPoll. This analysis folder contains the printed output.
 
 PyBank:
 
@@ -28,7 +28,7 @@ PyBank:
 
 PyPoll: 
  
-![VotePoll](Images/vote_counting.png)
+![VotePoll](Images/Vote_counting.png)
 
  Created a Python script that analyzes the votes and calculates each of the following:
 
